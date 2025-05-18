@@ -10,7 +10,7 @@ tech_mentor_bp = Blueprint('tech_mentor', __name__)
 
 # Initialize Groq client
 groq_client = Groq(
-    api_key=os.getenv("GROQ_API_KEY", "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")
+    api_key=os.getenv("GROQ_API_KEY", "API_KEY")
 )
 
 @tech_mentor_bp.route('/api/tech-mentor', methods=['POST'])
